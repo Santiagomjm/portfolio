@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/mediaqueries.css">
+</head>
+<body>
+        <nav id="desktop-nav">
+            <div class="logo">Santiago Moreira</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre mi</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Santiago Moreira</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">Sobre mi</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./static/img/profile-pic.png" alt="foto de perfil">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hola!, soy</p>
+                <h1 class="title">Santiago Moreira</h1>
+                <p class="section__text__p2">Full stack Jr</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./static/img/cv.pdf')"> Ver CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Informacion de contacto </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./static/img/linkedin.png" alt="Mi linkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/santiago-moreira-43410420a/'">
+
+                    <img src="./static/img/github.png" alt="Mi github" class="icon" onclick="location.href='https://github.com/Santiagomjm'">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <p class="section__text__p1">Saber mas</p>
+            <h1 class="title">Sobre mi</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./static/img/about-pic.png" alt="foto de perfil" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./static/img/experience.png" alt="icono experiencia" class="icon">
+                            <h3>Apasionado por la tecnología
+                                me encuentro dando mis
+                                primeros pasos en el desarrollo
+                                web, siempre predispuesto a
+                                seguir aprendiendo y crecer
+                                como profesional</h3>
+                                <br>
+                            <h3>+ 2 años estudiando programacion</h3>
+                        </div>
+
+                        <div class="details-container">
+                            <img src="./static/img/education.png" alt="icono educacion" class="icon">
+                            <h3><li>Python full stack Codo a codo</li></h3>
+                            <p>Desarrollo de front-back y base de datos + CRUD en python</p>
+                            
+                            <h3><li>YoProgramo, Argentina Programa</li></h3>
+                            <p>Desarrollo de software full stack Jr</p>
+                            
+                            <h3><li>Python intermedio FIUBA/Argentina Programa</li></h3>
+                            <p>Curso de introducción a Python</p>
+
+                            <h3><li>SeProgramar, Argentina Programa</li></h3>
+                            <p>Introducción a la programación imperativa y orientada a objetos<p>    
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>texto prueba</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./static/img/arrow.png" alt="icono flecha" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <script src="./static/js/index.js"></script>
+</body>
+
+</html>

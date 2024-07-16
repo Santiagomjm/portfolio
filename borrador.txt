@@ -1,0 +1,45 @@
+</section>
+
+<section class="aboutMe">
+    <div>
+        <h1>Santiago Moreira Full stack Jr</h1>
+        <p>Mi nombre es Santiago, me apaciona la tecnologia</p>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h2>Mis estudios</h2>
+        <li>CaC <button>mas info</button></li>
+        <li>Arg Programa python <button> mas info</button></li>
+        <li>Arg Programa full stack jr <button> mas info</button></li>
+    </div>
+</section>
+<section class="Proyectos">
+    <h2>Mis Proyectos</h2>
+    <ul><button><a href="https://proyectocaccatalinatransporte.netlify.app/">Pagina Web de Transporte </a></button></ul>
+    <ul><button><a href="https://proyecto-final-cac.netlify.app/">CRUD Python + Login JS </a></button>
+        <button><p class="spoiler-button" onclick="toggleSpoiler()">Mostrar credenciales</p>
+    <p id="spoiler" class="spoiler">
+            Usuario: admin, Password: 1234
+    </p></button></ul>
+    <ul><button><a href="">Calculdora</a></button></ul>
+    <ul><button><a href="">Proyecto 3</a></button></ul>
+    <ul><button><a href="">Proyecto 4</a></button></ul>
+</section>
+
+<section>
+    
+    <button>
+        <a href="https://github.com/Santiagomjm"><h1>Mi github</h1>
+        </a>
+    </button>
+
+    <h2>Email de contacto</h2>
+    <h3>santiagomjm@outlook.com</h3>
+</section>
+<script src="./static/js/index.js"></script>
+</body>
+<footer>
+&copy;Santiago Moreira, Buenos Aires-2024
+</footer>
